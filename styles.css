@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+    }
+    input, label {
+      margin-bottom: 10px;
+    }
+    #existing {
+      display: none;
+      margin-top: 10px;
+    }
